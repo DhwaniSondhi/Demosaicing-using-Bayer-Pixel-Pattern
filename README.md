@@ -5,7 +5,7 @@ This is the assignment of COMP6341 COMPUTER VISION. The aim of this assignment i
 This algorithm is the first step of the imaging pipeline that reconstructs a full-colored image from the raw output of the digital camera’s sensor. The assignment was divided into two parts.
 
 ### Part A:
-- Used a Simple Interpolation by averaging four or two nearest neighbours. 
+- Used a Simple linear Interpolation by averaging four or two nearest neighbours. 
 - Built a kernel for each channel in following way.
 <img src="https://github.com/DhwaniSondhi/Demosaicing-using-Bayer-Pixel-Pattern/blob/master/images/1.PNG" alt="alt" width="800" height="300"/><br/>
 - Found root squared difference between original and reconstructed images.
